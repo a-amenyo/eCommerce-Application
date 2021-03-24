@@ -56,9 +56,34 @@ $("#qty").change(function(){
 });
 
 // Displaying size of sweater
-$("#size-selct").click (function(){
+$("#size-selct").click(function(){
     $("#displaysize").text($(this).val());
-})
+    $("#disp-qty").text($(this).val());
+});
+
+// Dsiplaying Unit Price
+// ******************************************
+// Price on  product page
+$("#price").text();
+price = parseFloat($("#price").text()).toFixed(2);
+// Price on pop up card
+$("#pop-price").text(price);
+
+
+// Displaying Quantity on pop up card 
+// *******************************************
+// Mehtod to get value from the product page then pass to
+// the pop up card 
+$("#qty").change(function(){
+    $("#disp-qty").text($(this).val());
+});
+
+
+
+
+
+
+
 
 
 
