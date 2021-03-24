@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.payment {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    column-gap: 1px;
+    padding: 15px;
+
+}
+
+.payment >div{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid yellow;
+    height: 100vh;
+    width: auto;
+    padding: 10px;
+    justify-items: center;
+}
+.payment-img img {
+    width: 400px;
+}
+.payment-info ul li {
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+
+}
+#pay-button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 830px){
+    .main-container{
+        grid-template-columns: 1fr;
+    }
+
+  
+}

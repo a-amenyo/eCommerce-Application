@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cart-overview{
+    background-color: whitesmoke;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    /* border: 1px solid green ; */
+}
+.cart-card{
+    text-align: center;
+    margin: 5px;
+    /* border: 1px solid yellow; */
+    padding: 15px;
+    width: 300px;
+  
+}
+
+.cart-overview img {
+    width: 300px;
+    margin: auto; 
+}
+.cart-card h4{
+    color:black;
+}
+.quant{
+    padding: 10px;
+}
+.quant a {
+    text-decoration: none;
+}
+#edit{
+    border-right: 1px solid grey;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+.check-out{
+    /* position: absolute; */
+    width: 300px;
+    padding: 30px;
+}
+.check{
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    border-radius: 2px;
+    background-color:#ec4646;
+    border: 5px solid #f4f5db;
+    color: white;
+    margin-bottom: 15px;
+}
+.check h3{
+    /* border: 2px solid green; */
+
+}
+.check a {
+    text-decoration: none;
+    color: white;
+}
+.shop{
+    text-align: center;
+    padding: 10px;
+    width: 270px;
+    border-radius: 2px;
+    background-color: white;
+    color: #002b5c;
+    border: 1px solid #002b5c;
+
+}
+.shop p{
+    font-size: 20px;
+}
+.shop a{
+    color: blue;
+}
+#get{
+    font-size: 12px;
+}
+
+/* promo code */
+#promo{
+    border: none;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    width: 150px;
+    
+}
+.promo{
+    padding: 15px;
+    width: 290px;
+    margin: 15px;
+}
+#promobtn{
+    width: 50px;
+    padding: 5px;
+    padding-right: 5px;
+    background-color: #23689b;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 830px){
+    .mininav{
+        width: auto;
+    }
+
+  
+}
