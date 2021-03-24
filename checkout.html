@@ -11,64 +11,51 @@
     <link rel="stylesheet" href="css/checkout.css">
 </head>
 
-<body>
-                
-
+<body>               
 
     <div class="payment">
             <div class="payment-img">         
             <img src="assets/frontview.jpg" alt="">
-         
             </div>  
 
 
-            <!-- Shipping and Payment Info  -->
+            <!-- Shipping and Payment Info form -->
             <div class="form">
-              <h2 id="address">Shipping Address</h2>
-              <form>
-                <div class="form-grid top-margin-1">
+              <!-- <h2 id="address">Shipping Address</h2> -->
+              <form class="shipping-form">
+                <h2 id="address">Shipping Address</h2>
+                <div class="name">
                     <div class="form-col">
-                        <label for="">FIRSTNAME</label><br> 
+                        <label for="">First Name</label><br> 
                         <input class="s-input" type="text" required>
                    </div>
                    
                    <div>
-                       <label for="">LASTNAME</label><br>
+                       <label for="">Last Name</label><br>
                        <input class="s-input" type="text" required> 
                   </div>
             
                 </div>
             
-                <div class="row">
-                    <div class="rowspan">
-                        <label for="">ADDRESS</label><br> 
+                
+                    <div class="address">
+                        <label for="">Address</label><br> 
                         <input class="text-input" type="text">
                    </div>
                  
-                  
-                </div>
-                <div class="row">
-                    <div class="rowspan">
+                    <div class="address">
                         <label for=""></label><br> 
                         <input class="full-input" type="text">
-                   </div>
-                 
-                  
-                </div>
-                <div class="row">
-                    <div class="rowspan">
-                        <label for="">CITY</label><br> 
+                    </div>
+                    <div class="address">
+                        <label for="">City</label><br> 
                         <input class="text" type="text">
-                   </div>
-                 
-                  
+
                 </div>
-              
-              
-            
+              <!-- Countries  and zip code-->
                 <div class="form-grid top-margin-1">
                     <div class="form-column">
-                        <label for="">STATE</label><br> 
+                        <label for="">Country</label><br> 
                         <select class="s-input" name="" id="">
                             <option value="">USA</option>
                             <option value="">China</option>
@@ -79,23 +66,21 @@
                             <option value="">Norway</option>
                         </select>
                    </div>
-                   
+                   <!-- Zip code -->
                    <div>
-                       <label for="">ZIP CODE</label><br>
+                       <label for="">Zip Code</label><br>
                        <input class="s-input" type="text"> 
                   </div>
                   
                 </div>
-                <div class="form-grid top-margin-1">
-                    <div class="form-col">
-                        <label for="">PHONE</label><br> 
+                <!-- Phone number -->
+                    <div class="phone">
+                        <label for="">Phone</label><br> 
                         <input class="s-input" type="text">
                    </div>
-                  
-                </div>
-          
               </form>
           </div>
+          <!-- Shipping and Payment Info form-end -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/script.js" charset="utf-8"></script>

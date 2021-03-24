@@ -220,6 +220,18 @@ size-selct >div:active{
     display: flex;
     margin-bottom: 25px;
 }
+label {
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-right: 10px;
+  }
+  
+ #qty {
+      display:list-item;
+     font-size: 0.9rem;
+     margin-left: 1rem;
+     padding: 2px 5px;
+  }
 
  .step {
     font-size: 25px;    

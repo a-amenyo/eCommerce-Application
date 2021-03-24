@@ -10,7 +10,7 @@ $('#items').on('click', ()=>{
     $('.add-popup').slideUp();
 })
 // Closing the pop up when you click anywhere on screen
-// $('div').on('click', ()=>{
+// $('.midnav-container').on('click', ()=>{
 //     $('.add-popup').css('visibility','hidden');
 // })
 
@@ -46,6 +46,18 @@ $('#pic3').on('click', () => {
     $('#pic3').css('border', '2px solid #282846');
     $('#pic1').css('border', 'none');
     $('#pic2').css('border', 'none');
+})
+
+// Updating the Quantity selector
+$("#qty").change(function(){
+    $("#displayqty").text($(this).val());
+    // Quantity of items to show at nav bar also 
+    $("#disp").text($(this).val());
+});
+
+// Displaying size of sweater
+$("#size-selct").click (function(){
+    $("#displaysize").text($(this).val());
 })
 
 

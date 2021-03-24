@@ -32,6 +32,12 @@
 .quant a {
     text-decoration: none;
 }
+#qty {
+    display:list-item;
+   font-size: 0.9rem;
+   margin-left: 1rem;
+   padding: 2px 5px;
+}
 #edit{
     border-right: 1px solid grey;
     margin-right: 5px;
@@ -85,7 +91,7 @@
     border: none;
     text-align: center;
     width: 100px;
-    padding: 5px;
+    padding: 10px;
     width: 150px;
     
 }
@@ -95,8 +101,8 @@
     margin: 15px;
 }
 #promobtn{
-    width: 50px;
-    padding: 5px;
+    width: 100px;
+    padding: 10px;
     padding-right: 5px;
     background-color: #23689b;
     border: none;

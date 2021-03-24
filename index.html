@@ -36,7 +36,8 @@
             <ul>
                 <li> <a href="#">Welcome, Sign in </a></li>
                 <li><a href="#">Ship to</a></li>
-                <li> <a href="#">Bag</a></li>
+                <li> <a href="#"  >Bag:<d id="disp"></d></a></li>
+                
             </ul>
         </div>
     </div> <br>
@@ -118,12 +119,12 @@
                 <div class="color-circle">
                 </div> <br>
                 <div class="size">
-                    <p><strong>Size</strong> : select a size <a href="" id="size">Size chart </a> </p>
+                    <p><strong>Size</strong> : <d id="displaysize"></d> <a href="" id="size">Size chart </a> </p>
                 </div>
 
                 <div class="size-selct">
-                    <div>2T</div>
-                    <div>3T</div>
+                    <div id="size-selct" >2T</div>
+                    <div >3T</div>
                     <div>4T</div>
                     <div>5</div>
                     <div>6</div>
@@ -134,13 +135,22 @@
                     <div>XL</div>
                 </div> <br>
 
+                <label for="Quantity" id="choose" ><strong >Choose your Quantity</strong>:<d id="displayqty"></d></label>
+                <br>
+                
                 <div class="increments">
-                    <select name="" id="Qty" >
+                   
+                    <select id="qty" >
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                         <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
                     </select>
                     <!-- <div class="step">
                         <i class="fas fa-minus"></i>
@@ -195,9 +205,10 @@
             </div>
 
         </div>
-        <div class="promo-popup">
+        <!-- Promo pop up card  -->
+        <!-- <div class="promo-popup">
             
-        </div>
+        </div> -->
     </div>
 
 
