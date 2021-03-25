@@ -11,12 +11,51 @@
     <link rel="stylesheet" href="css/checkout.css">
 </head>
 
-<body>               
+<body>         
+    
+     <!-- Top header -->
+     <div class="mininav">
+        <p>We now accept Apple Pay for a quick & easy checkout </p>
+    </div>
+    <!-- Middle Navbar -->
+    <div class="midnav-container">
+        <div class="left">
+            <a href="#">Find a Store</a>
+            <a href="#">Contact</a>
+            <div class="email">
+                <input type="email" name="email" placeholder="Email Address" id="email"> <button>JOIN</button>
+            </div>
+
+            <a href="#" id="make">Make an appointment</a>
+        </div>
+        <div class="mid">
+            <img src="assets/logo.png" alt="threads logo">
+        </div>
+
+        <div class="right">
+            <ul>
+                <li> <a href="#">Welcome, Sign in </a></li>
+                <li><a href="#">Ship to</a></li>
+                <li> <a href="#" >Bag:<d id="disp"></d></a></li>
+                
+            </ul>
+        </div>
+    </div> <br>
+
+
+    <!-- Horizontal line  -->
+    <hr>
 
     <div class="payment">
             <div class="payment-img">         
             <img src="assets/frontview.jpg" alt="">
-            </div>  
+            <h3>Boys' Stillwater Sherpa 1/4-Zip</h3>
+            <p>Color : Camel </p>
+            <p>Size : 4T</p>
+            <!-- Quantity -->
+            <h3>Quantity:<d id="displayqty">4</d></h3>
+            <h3>Total Price: $200</h3> <br>
+        </div>
 
 
             <!-- Shipping and Payment Info form -->
@@ -83,7 +122,7 @@
           <!-- Shipping and Payment Info form-end -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/script.js" charset="utf-8"></script>
+    <script src="js/cart.js" charset="utf-8"></script>
 </body>
 
 </html>

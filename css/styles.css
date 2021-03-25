@@ -11,8 +11,9 @@
     padding-bottom: 5px;
 }
 
-.mininav > p{
-    font-family: Nunito Sans,sans-serif;
+.mininav  p{
+    font-family: sans-serif;
+    font-size: 13px;
 }
 .midnav-container{
     padding: 15px;
@@ -31,6 +32,7 @@
     border-right: 1px solid grey; 
     text-decoration: none;
     height: 20px;
+    font-family: sans-serif;
 }
 #img1{
     position: absolute;
@@ -47,6 +49,7 @@
 #make{
     grid-column: 1/5;
     border-right: none; 
+    font-family: sans-serif;
 }
 #email{
     border: none;
@@ -92,39 +95,16 @@ button{
     border-right: 1px solid grey; 
     height: 20px; 
     margin-right: 15px;
+    font-family: sans-serif;
 }
 .right ul li:nth-child(3){
     border: none;
 }
 .right a {
     text-decoration: none; 
+    font-family: sans-serif;
 }
 
-/* MENU */
-.menu{
-
-    margin-top: 0px;
-    margin-bottom: 10px;
-    height: 30px;
-    padding: 5px;
-    text-align: center;
-}
-.menu ul{  
-    display: flex;
-    text-align: center;
-
-}
-.menu ul li {
-
-    padding: 20px;
-    text-decoration: none;
-    list-style: none;
-}
-.menu ul li a{
-    text-decoration: none;
-    text-align: center;
-
-}
 /* Horizontal Line */
 hr{
     margin-bottom: 10px;
@@ -161,6 +141,7 @@ hr{
 }
 .right-container h2{
     margin-bottom: 10px;
+    font-family: sans-serif;
 }
 .reviews{
     color: #1176bb;
@@ -169,6 +150,7 @@ hr{
 #review{
     display: inline-block;
     text-decoration: none;
+    font-family: sans-serif;
 }
 .color-circle{
     width: 35px;
@@ -185,12 +167,22 @@ hr{
 #ord {
     text-decoration: none;
     color: black;
+    font-family: sans-serif;
 }
 .price{
     margin-bottom: 10px;
 }
+.price p { 
+    font-family: sans-serif;
+}
 .color{
     margin-bottom: 10px;
+}
+.color p { 
+    font-family: sans-serif;
+}
+.size p{
+    font-family: sans-serif;
 }
 #size{
     padding-left: 25px;
@@ -201,6 +193,9 @@ hr{
     display: grid;
     grid-template: repeat(2,45px)/repeat(8,45px);
     gap: 5px; 
+}
+.size-selct div {
+    font-family: sans-serif;
 }
 .size-selct >div{
     display: grid;
@@ -216,9 +211,15 @@ hr{
 size-selct >div:active{
     background-color: #002b5c;
 }
+#choose{
+    font-family: sans-serif;
+}
 .increments{
     display: flex;
     margin-bottom: 25px;
+}
+#qty option{
+    font-family: sans-serif;
 }
 label {
     font-size: 1rem;
@@ -263,10 +264,14 @@ label {
     cursor: pointer;
     z-index: 10;
 }
+.add-to h3{
+    font-family: sans-serif;
+}
 .add-to a {
     text-decoration: none;
     color: white;
     cursor: pointer;
+    font-family: sans-serif;
 }
 .buy{
     text-align: center;
@@ -280,6 +285,7 @@ label {
 }
 .buy p{
     font-size: 20px;
+    font-family: sans-serif;
 }
 .buy a{
     color: blue;
@@ -307,6 +313,9 @@ label {
     text-align: center;
     padding: 15px;
 }
+.items h2{
+    font-family: sans-serif;
+}
 .items a {
     cursor: pointer;
     margin-left: 15px;
@@ -329,6 +338,9 @@ label {
     /* border: 1px solid red; */
     width: auto;
 }
+.desc p {
+    font-family: sans-serif;
+}
 #newprice {
     color: green;
 }
@@ -343,6 +355,7 @@ label {
 .subtotal h4{
     color: #002b5c;
     padding: 20px;
+    font-family: sans-serif;
 }
 #subprice{
     margin-left: 50px;
@@ -366,6 +379,9 @@ label {
     margin-bottom: 15px;
     cursor: pointer;
 }
+.checkk h3{
+    font-family: sans-serif;
+}
 .checkk a {
     text-decoration: none;
     color: white;
@@ -383,6 +399,7 @@ label {
 }
 .shopp p{
     font-size: 20px;
+    font-family: sans-serif;
 }
 .shopp a{
     color: blue;
