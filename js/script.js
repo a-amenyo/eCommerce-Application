@@ -56,10 +56,10 @@ $("#qty").change(function(){
 });
 
 // Displaying size of sweater
-$("#size-selct").click(function(){
-    $("#displaysize").text($(this).val());
-    $("#disp-qty").text($(this).val());
-});
+// $("#size-selct").click(function(){
+//     $("#displaysize").text($(this).val());
+//     $("#disp-qty").text($(this).val());
+// });
 
 // Dsiplaying Unit Price
 // ******************************************

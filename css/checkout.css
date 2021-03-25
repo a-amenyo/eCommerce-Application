@@ -49,6 +49,26 @@ payment-img h3, p {
  top: 0px;
 }
 
+.pay{
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    border-radius: 2px;
+    background-color:seagreen;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 470px;
+}
+.pay h3{
+    /* border: 2px solid green; */
+    font-family: sans-serif;
+
+}
+.pay a {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 @media screen and (max-width: 830px){
