@@ -3,7 +3,7 @@
     padding: 0;
 }
 #pic-card h4, h3, p {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .cart-overview{
@@ -35,7 +35,7 @@
 }
 .quant a {
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
 }
 
@@ -46,13 +46,13 @@
    padding: 2px 5px;
 }
 #displayqty{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 #edit{
     border-right: 1px solid grey;
     margin-right: 5px;
     padding-right: 5px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .check-out{
     /* position: absolute; */
@@ -70,7 +70,7 @@
 }
 .check h3{
     /* border: 2px solid green; */
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .check a {
@@ -89,7 +89,7 @@
 }
 .shop p{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .shop a{
     color: blue;
@@ -111,7 +111,7 @@
     padding: 15px;
     width: 290px;
     margin: 15px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 #promobtn{
     width: 100px;
@@ -121,7 +121,7 @@
     border: none;
     color: white;
     cursor: pointer;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (max-width: 830px){

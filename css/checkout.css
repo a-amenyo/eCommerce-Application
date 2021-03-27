@@ -26,7 +26,7 @@
 }
 
 payment-img h3, p {
-    font-family: sans-serif;
+    font-family:'Montserrat', sans-serif;
 }
 .form{
     justify-content: center;
@@ -37,7 +37,7 @@ payment-img h3, p {
     height: 50px;
     padding: 10px;
     text-align: center;
-    font-family: sans-serif;
+    font-family:'Montserrat', sans-serif;
     margin-bottom: 0px;
 }
 .shipping-form{
@@ -61,7 +61,7 @@ payment-img h3, p {
 }
 .pay h3{
     /* border: 2px solid green; */
-    font-family: sans-serif;
+    font-family:'Montserrat', sans-serif;
 
 }
 .pay a {

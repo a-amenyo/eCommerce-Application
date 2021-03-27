@@ -1,19 +1,30 @@
 // Showing the add-to-cart pop up 
 $('#bag').on("click", ()=>{
     // point to the class of the add to cart pop up card 
-    $('.add-popup').fadeIn();
+    $('.add-popup').slideDown();
 
 });
+
+// Anonymous function
+// $("#bag").click(function(){
+//     $(".add-popup").slideDown();
+
+// })
+
+
 
 // Closing the add-to-cart pop up when you click on the cancel icon 
 $('#items').on('click', ()=>{
     $('.add-popup').slideUp();
 })
-// Closing the pop up when you click anywhere on screen
-// $('.midnav-container').on('click', ()=>{
-//     $('.add-popup').css('visibility','hidden');
-// })
 
+
+// Closing the pop up when you click anywhere on screen
+$('.midnav-container').click(function(){
+    $('.add-popup').css('visibility','hidden');
+})
+
+// *****************************************************
 // Picture changer 
 $('#pic1').on('click', () => {
     $('#img1').css('visibility', 'visible');
@@ -30,6 +41,7 @@ $('#pic3').on('click', () => {
     $('#img1').css('visibility', 'hidden');
     $('#img2').css('visibility', 'hidden');
 })
+// *****************************************************
 
 // Thumbnail Activeness
 $('#pic1').on('click', () => {
@@ -47,19 +59,45 @@ $('#pic3').on('click', () => {
     $('#pic1').css('border', 'none');
     $('#pic2').css('border', 'none');
 })
+// *****************************************************
 
 // Updating the Quantity selector
 $("#qty").change(function(){
-    $("#displayqty").text($(this).val());
+    // Assigning a variable to the this.val() function
+    // let displayQuantity = $(this).val();
+    // $("#displayqty").text(displayQuantity);
+  $("#displayqty").text($(this).val());
     // Quantity of items to show at nav bar also 
+    // $("#disp").text(displayQuantity);
     $("#disp").text($(this).val());
 });
+// *****************************************************
 
 // Displaying size of sweater
-// $("#size-selct").click(function(){
-//     $("#displaysize").text($(this).val());
-//     $("#disp-qty").text($(this).val());
-// });
+$(".size-value").click(function(){
+ // with the use of a variable :
+//    let  display = $(this).text();
+//     $("#displaysize").text(display);
+
+// With the use of the keyword
+    $("#displaysize").text($(this).text());
+
+    // activeness
+    $(this).css({"background-color": "#002b5c","color":"whitesmoke"});
+    array.forEach(element => {
+        
+    });
+
+
+});
+
+// Activeness of  size selcted 
+// $(".size-value").on("click", ()=>{
+//     $(this).css("background-color", "#002b5c");
+//     $(this).css("color", "whitesmoke");
+// })
+
+
 
 // Dsiplaying Unit Price
 // ******************************************
@@ -71,7 +109,7 @@ $("#pop-price").text(price);
 
 
 // Displaying Quantity on pop up card 
-// *******************************************
+// ***********************************************
 // Mehtod to get value from the product page then pass to
 // the pop up card 
 $("#qty").change(function(){
