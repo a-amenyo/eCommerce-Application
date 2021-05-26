@@ -11,8 +11,6 @@ $('#bag').on("click", ()=>{
 
 // })
 
-
-
 // Closing the add-to-cart pop up when you click on the cancel icon 
 $('#items').on('click', ()=>{
     $('.add-popup').slideUp();
@@ -84,10 +82,8 @@ $(".size-value").click(function(){
 
     // activeness
     $(this).css({"background-color": "#002b5c","color":"whitesmoke"});
-    array.forEach(element => {
-        
+    array.forEach(element => {      
     });
-
 
 });
 

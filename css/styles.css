@@ -14,7 +14,7 @@ body{
     padding-bottom: 5px;
 }
 .mid img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .mininav  p{
@@ -120,7 +120,7 @@ hr{
 
 .main-container{
     display: grid;
-    grid-template-columns: 0.4fr 2fr 1.5fr;
+    grid-template-columns: 0.4fr 2fr 1.5fr; 
 }
 
 .left-container img {
